@@ -1,0 +1,40 @@
+&jules_input_grid
+    grid_is_1d = .false.
+    nx = 656
+    ny = 1057
+    pft_dim_name = 'pft'
+    sclayer_dim_name = 'sclayer'
+    scpool_dim_name = 'scpool'
+    soil_dim_name = 'z'
+    time_dim_name = 'time'
+    type_dim_name = 'z'
+    x_dim_name = 'x'
+    y_dim_name = 'y'
+/
+
+&jules_latlon
+    file = '/group_workspaces/jasmin2/jules_bd/data/CHESS_v1.0/ancils_uncompressed/chess_landfrac.nc'
+    lat_name = 'lat'
+    lon_name = 'lon'
+/
+
+&jules_land_frac
+    file = '/group_workspaces/jasmin2/jules_bd/data/CHESS_v1.0/ancils_uncompressed/chess_landfrac.nc'
+    land_frac_name = 'landfrac'
+/
+
+&jules_model_grid
+    force_1d_grid = .false.
+    land_only = .true.
+    use_subgrid = .true.
+    latlon_region = .false.
+    npoints = 1
+    points_file = '../cardt_point.txt'
+/
+
+&jules_surf_hgt
+    zero_height = .true.
+/
+
+&jules_z_land
+/

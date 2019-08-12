@@ -1,0 +1,13 @@
+&jules_nvegparm
+    albsnc_nvg_io = 0.4, 0.06, 0.8
+    albsnf_nvg_io = 0.18, 0.06, -1.0
+    catch_nvg_io = 0.5, 0.0, 0.0
+    ch_nvg_io = 280000.0, 4180000.0, 0.0
+    emis_nvg_io = 0.97, 0.97, 0.97
+    gs_nvg_io = 0.0, 0.0, 0.01
+    infil_nvg_io = 0.1, 0.0, 0.5
+    vf_nvg_io = 1.0, 1.0, 0.0
+    z0_nvg_io = 1.0, 0.0003, 0.0003
+    z0hm_classic_nvg_io = 0.1, 0.1, 0.1
+    z0hm_nvg_io = 1e-07, 0.1, 0.1
+/

@@ -1,0 +1,8 @@
+&jules_hydrology
+    b_pdm = 2.0
+    dz_pdm = 1.0
+    l_pdm = .true.
+    l_spdmvar = .true.
+    l_top = .false.
+    slope_pdm_max = 6.0
+/

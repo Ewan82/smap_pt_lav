@@ -1,0 +1,8 @@
+&jules_surface_types
+    ice = -1
+    lake = 7
+    nnvg = 3
+    npft = 5
+    soil = 8
+    urban = 6
+/

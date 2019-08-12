@@ -1,0 +1,31 @@
+&jules_prescribed
+    n_datasets = 2
+/
+
+&jules_prescribed_dataset
+    data_end = '2018-01-01 00:00:00'
+    data_period = -2
+    data_start = '1959-01-01 00:00:00'
+    file = '/work/scratch/emrobi/data/ancils/co2/co2_annmean_comb_chess_1959_2017.nc'
+    interp = 'nf'
+    is_climatology = .false.
+    nvars = 1
+    read_list = .false.
+    tpl_name = 'co2_mmr'
+    var = 'co2_mmr'
+    var_name = 'co2_mmr'
+/
+
+&jules_prescribed_dataset
+    data_end = '1951-01-01 00:00:00'
+    data_period = -1
+    data_start = '1950-01-01 00:00:00'
+    file = '/group_workspaces/jasmin2/jules_bd/data/CHESS_v1.0/ancils_uncompressed/chess_monthly_lai.nc'
+    interp = 'nf'
+    is_climatology = .true.
+    nvars = 1
+    read_list = .false.
+    tpl_name = ''
+    var = 'lai'
+    var_name = 'lai'
+/

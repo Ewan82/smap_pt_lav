@@ -1,0 +1,14 @@
+&jules_rivers
+    a_thresh = 13
+    cbland = 0.05
+    cbriver = 0.05
+    cland = 0.4
+    criver = 0.5
+    l_riv_overbank = .false.
+    l_rivers = .true.
+    retl = 0.0
+    retr = 0.005
+    rivers_timestep = 1
+    rivers_type = 'rfm'
+    runoff_factor = 1.0
+/

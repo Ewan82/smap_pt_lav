@@ -1,0 +1,14 @@
+&jules_initial
+    const_val = 0.9, 0.0, 0.0, 50.0, 275.0, 278.0, 10.0, 0.0, 1.0, 2.0,
+                0.9, 3.0
+    dump_file = .false.
+    file = '/group_workspaces/jasmin2/jules_bd/data/CHESS_v1.0/ancils_uncompressed/chess_soilparams_hwsd_vg_sclayer.nc'
+    nvars = 12
+    total_snow = .true.
+    use_file = .false., .false., .false., .false., .false., .false., .true.,
+               .false., .false., .false., .false., .false.
+    var = 'sthuf', 'canopy', 'snow_tile', 'rgrain', 'tstar_tile', 't_soil',
+          'cs', 'gs', 'lai', 'canht', 'sthzw', 'zw'
+    var_name = 'sthuf', 'canopy', 'snow_tile', 'rgrain', 'tstar_tile', 't_soil',
+               'cs', 'gs', 'lai', 'canht', 'sthzw', 'zw'
+/

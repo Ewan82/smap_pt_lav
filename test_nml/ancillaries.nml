@@ -1,0 +1,49 @@
+&jules_frac
+    file = '/group_workspaces/jasmin2/jules_bd/data/CHESS_v1.0/ancils_uncompressed/chess_landcover_2000.nc'
+    frac_name = 'frac'
+/
+
+&jules_soil_props
+    const_val = 0, 1, 2, 3, 4, 5, 6, 7, 0.15
+    const_z = .true.
+    file = '/group_workspaces/jasmin2/jules_bd/data/CHESS_v1.0/ancils_uncompressed/chess_soilparams_hwsd_vg.nc'
+    nvars = 9
+    use_file = .false., .false., .false., .false., .false., .false., .false.,
+               .false., .false.
+    var = 'b', 'sathh', 'satcon', 'sm_sat', 'sm_crit', 'sm_wilt', 'hcap',
+          'hcon', 'albsoil'
+    var_name = 'oneovernminusone', 'oneoveralpha', 'satcon', 'vsat', 'vcrit',
+               'vwilt', 'hcap', 'hcon', 'albsoil'
+/
+
+&jules_pdm
+    file = '/group_workspaces/jasmin2/jules_bd/data/CHESS_v1.0/ancils_uncompressed/uk_ihdtm_topography+topoindex_1km.nc'
+    nvars = 1
+    use_file = .true.
+    var = 'slope'
+    var_name = 'slope'
+/
+
+&jules_agric
+/
+
+&jules_rivers_props
+    file = '/home/users/albmar/UKEP/data/routing/chess_riverparams.nc'
+    nvars = 4
+    nx = 656
+    nx_grid = 656
+    ny = 1057
+    ny_grid = 1057
+    rivers_dx = 1000
+    rivers_reglatlon = .false.
+    rivers_regrid = .false.
+    use_file = .true., .true., .true., .true.
+    var = 'direction', 'area', 'latitude_2d', 'longitude_2d'
+    var_name = 'dir', 'acc', 'lat', 'lon'
+    x_dim_name = 'x'
+    y_dim_name = 'y'
+/
+
+&jules_co2
+    co2_mmr = 0.0005941
+/

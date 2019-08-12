@@ -1,0 +1,29 @@
+&jules_drive
+    data_end = '2017-01-01 00:00:00'
+    data_period = 86400
+    data_start = '1961-01-01 00:00:00'
+    diff_frac_const = 0.4
+    dur_conv_rain = 7200.0
+    dur_ls_rain = 18000.0
+    dur_ls_snow = 18000.0
+    file = '/group_workspaces/jasmin2/jules_bd/data/CHESS_v1.2/met_uncompressed/chess_%vv_%y4%m2.nc'
+    interp = 'nf', 'nf', 'nf', 'nf', 'nf', 'nf', 'nf', 'nf'
+    l_daily_disagg = .true.
+    l_disagg_const_rh = .true.
+    l_imogen = .false.
+    l_perturb_driving = .false.
+    nvars = 8
+    precip_disagg_method = 3
+    read_list = .false.
+    t_for_con_rain = 288.15
+    t_for_snow = 275.15
+    tpl_name = 'rsds', 'rlds', 'precip', 'tas', 'sfcWind', 'huss', 'dtr',
+               'psurf'
+    var = 'sw_down', 'lw_down', 'precip', 't', 'wind', 'q', 'dt_range',
+          'pstar'
+    var_name = 'rsds', 'rlds', 'precip', 'tas', 'sfcWind', 'huss', 'dtr',
+               'psurf'
+    z1_tq_in = 1.2
+    z1_tq_vary = .false.
+    z1_uv_in = 10.0
+/
